@@ -1,0 +1,26 @@
+Backend Development:
+@File Structure
+
+src -> index(DB connects) ,App (cookies,configuration,urlencode), constants (DB-name,enams)
+@Directries
+
+1-DB
+2-Models(Schema)
+3-Controllers
+4-Routes
+5-Middleswares
+6-Utils(like multiple mail)
+7-More depends
+
+Creating Server:
+Desktop->Request->Server-> Response (through Express-> Listen)
+
+Create Backend:
+npm init -y
+npm install node
+npm install express
+For Starting:
+node file-name
+
+
+npm i dotenv (
